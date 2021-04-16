@@ -119,7 +119,8 @@ def diff(type, year):
             st.text('-')
     else:
         st.text('-')
-       
+
+st.sidebar.header('Generated Difference (KWH)')        
 row1_1, row1_2, row1_3 = st.sidebar.beta_columns((1,1,1))
 with row1_1:
     st.subheader('Steam Stations')
